@@ -1,7 +1,7 @@
 #Refection des graphs pour le projet
 
 #lire le fichier csv 
-path <-"/Users/KKEli/TJDE/Dev/Project1/Data/Per_CI/"
+path <-""
 filename <- paste(path, "Summary_nombre_ecole.csv",sep="")
 perci.raw <- read.csv(filename)
 
